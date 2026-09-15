@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="theme-color" content="#061a35">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="TKB QUÂN">
+<link rel="stylesheet" href="style.css">
+<title>TKB QUÂN</title>
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<header>
+    <div class="logo">⚔</div>
+    <div>
+        <small>THE SCHOOL OF</small>
+        <h1>QUÂN</h1>
+    </div>
+
+    <div class="clock">
+        <b id="clock">00:00:00</b>
+        <span id="date"></span>
+    </div>
+</header>
+
+<main>
+
+<section class="hero">
+    <small>STUDENT SYSTEM</small>
+    <h2>THỜI KHÓA BIỂU</h2>
+    <p>THỜI KHÓA BIỂU CỦA QUÂN</p>
+
+    <div class="buttons">
+        <button onclick="saveTKB()">💾 LƯU</button>
+        <button onclick="clearTKB()">🗑 XÓA</button>
+    </div>
+
+    <div id="message"></div>
+</section>
+
+
+<!-- ================= SÁNG ================= -->
+
+<section>
+    <div class="title">
+        <span>01</span>
+        <div>
+            <small>MORNING</small>
+            <h3>BUỔI SÁNG</h3>
+        </div>
+    </div>
+
+    <div class="table-box">
+    <table>
+        <thead>
+            <tr>
+                <th>TIẾT</th>
+                <th>GIỜ</th>
+                <th>THỨ 2</th>
+                <th>THỨ 3</th>
+                <th>THỨ 4</th>
+                <th>THỨ 5</th>
+                <th>THỨ 6</th>
+                <th>THỨ 7</th>
+            </tr>
+        </thead>
+
+        <tbody id="morning"></tbody>
+    </table>
+    </div>
+</section>
+
+
+<!-- ================= CHIỀU ================= -->
+
+<section>
+    <div class="title">
+        <span>02</span>
+        <div>
+            <small>AFTERNOON</small>
+            <h3>BUỔI CHIỀU</h3>
+        </div>
+    </div>
+
+    <div class="table-box">
+    <table>
+        <thead>
+            <tr>
+                <th>TIẾT</th>
+                <th>GIỜ</th>
+                <th>THỨ 2</th>
+                <th>THỨ 3</th>
+                <th>THỨ 4</th>
+                <th>THỨ 5</th>
+                <th>THỨ 6</th>
+                <th>THỨ 7</th>
+            </tr>
+        </thead>
+
+        <tbody id="afternoon"></tbody>
+    </table>
+    </div>
+</section>
+
+</main>
+
+<footer>⚔ TKB QUÂN — STUDENT SYSTEM</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
